@@ -1,0 +1,51 @@
+{
+  "name": "Business Name",
+  "slug": "business-slug",
+  "industry": "Industry Category",
+  "summary": "Short executive summary of the business.",
+  "location": "Primary operating region",
+  "stage": "Growth stage",
+  "lastUpdated": "YYYY-MM-DD",
+  "sections": [
+    {
+      "slug": "overview",
+      "label": "Executive Summary",
+      "description": "High-level narrative, mission, and strategic highlights."
+    },
+    {
+      "slug": "market",
+      "label": "Market & Opportunity",
+      "description": "Market size, growth, and demand drivers."
+    },
+    {
+      "slug": "model",
+      "label": "Business Model",
+      "description": "Revenue streams and unit economics overview."
+    },
+    {
+      "slug": "operations",
+      "label": "Operations",
+      "description": "Operational footprint and execution plan."
+    },
+    {
+      "slug": "projections",
+      "label": "Financial Projections",
+      "description": "Editable projections and scenario analysis."
+    },
+    {
+      "slug": "charts",
+      "label": "Charts & Graphs",
+      "description": "Visual insights and trend analysis."
+    },
+    {
+      "slug": "assumptions",
+      "label": "Assumptions & Notes",
+      "description": "Key assumptions, risks, and mitigation notes."
+    },
+    {
+      "slug": "appendix",
+      "label": "Appendix",
+      "description": "Sources, references, and supporting data."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "currency": "USD",
+  "timeframe": {
+    "startYear": 2025,
+    "endYear": 2028,
+    "frequency": "annual"
+  },
+  "metrics": [
+    {
+      "id": "rentalRevenueLow",
+      "label": "Rental Revenue (Low)",
+      "format": "currency",
+      "values": [1048800, 2907000, 4744224, 6653774]
+    },
+    {
+      "id": "rentalRevenueHigh",
+      "label": "Rental Revenue (High)",
+      "format": "currency",
+      "values": [1368000, 3755520, 6283000, 8968320]
+    },
+    {
+      "id": "chassisSalesLow",
+      "label": "Chassis Sales (Low)",
+      "format": "currency",
+      "values": [3000000, 5000000, 8000000, 11000000]
+    },
+    {
+      "id": "chassisSalesHigh",
+      "label": "Chassis Sales (High)",
+      "format": "currency",
+      "values": [3500000, 6500000, 9000000, 12500000]
+    },
+    {
+      "id": "usedSalesLow",
+      "label": "Used Truck & Trailer Sales (Low)",
+      "format": "currency",
+      "values": [4000000, 4400000, 4840000, 5324000]
+    },
+    {
+      "id": "usedSalesHigh",
+      "label": "Used Truck & Trailer Sales (High)",
+      "format": "currency",
+      "values": [4500000, 5175000, 5951250, 6843937.5]
+    },
+    {
+      "id": "totalRevenueLow",
+      "label": "Total Revenue (Low)",
+      "format": "currency",
+      "values": [8048800, 12307000, 17584224, 22977774]
+    },
+    {
+      "id": "totalRevenueHigh",
+      "label": "Total Revenue (High)",
+      "format": "currency",
+      "values": [9368000, 15430520, 21234250, 28312257.5]
+    }
+  ],
+  "drivers": [
+    {
+      "id": "unitVolumeLow",
+      "label": "Unit Volume (Low)",
+      "format": "number",
+      "values": [92, 250, 400, 550]
+    },
+    {
+      "id": "unitVolumeHigh",
+      "label": "Unit Volume (High)",
+      "format": "number",
+      "values": [120, 320, 550, 700]
+    },
+    {
+      "id": "avgMonthlyRateLow",
+      "label": "Average Monthly Rate (Low)",
+      "format": "currency",
+      "values": [950, 969, 988, 1008]
+    },
+    {
+      "id": "avgMonthlyRateHigh",
+      "label": "Average Monthly Rate (High)",
+      "format": "currency",
+      "values": [950, 978, 1007, 1038]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "low",
+      "label": "Low Case",
+      "description": "Conservative fleet ramp with lower unit count and revenue."
+    },
+    {
+      "id": "high",
+      "label": "High Case",
+      "description": "Accelerated fleet ramp with higher unit count and revenue."
+    }
+  ]
+}

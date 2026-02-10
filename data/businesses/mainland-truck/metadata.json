@@ -1,0 +1,51 @@
+{
+  "name": "Mainland Truck & Trailer Sales & Leasing",
+  "slug": "mainland-truck",
+  "industry": "Commercial Transportation",
+  "summary": "A full-service commercial truck and trailer sales, leasing, rental, and service platform.",
+  "location": "To be confirmed",
+  "stage": "Growth",
+  "lastUpdated": "2025-01-01",
+  "sections": [
+    {
+      "slug": "overview",
+      "label": "Executive Summary",
+      "description": "High-level narrative, mission, and strategic highlights."
+    },
+    {
+      "slug": "market",
+      "label": "Market & Opportunity",
+      "description": "Market size, growth, and demand drivers."
+    },
+    {
+      "slug": "model",
+      "label": "Business Model",
+      "description": "Revenue streams and unit economics overview."
+    },
+    {
+      "slug": "operations",
+      "label": "Operations",
+      "description": "Operational footprint and execution plan."
+    },
+    {
+      "slug": "projections",
+      "label": "Financial Projections",
+      "description": "Editable projections and scenario analysis."
+    },
+    {
+      "slug": "charts",
+      "label": "Charts & Graphs",
+      "description": "Visual insights and trend analysis."
+    },
+    {
+      "slug": "assumptions",
+      "label": "Assumptions & Notes",
+      "description": "Key assumptions, risks, and mitigation notes."
+    },
+    {
+      "slug": "appendix",
+      "label": "Appendix",
+      "description": "Sources, references, and supporting data."
+    }
+  ]
+}

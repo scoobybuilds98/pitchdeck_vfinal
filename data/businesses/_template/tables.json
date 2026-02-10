@@ -1,0 +1,10 @@
+{
+  "tables": [
+    {
+      "id": "projection-summary",
+      "title": "Projection Summary",
+      "metrics": ["revenue", "grossMargin"],
+      "notes": "Align with projections metric ids."
+    }
+  ]
+}

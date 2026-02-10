@@ -1,0 +1,25 @@
+{
+  "charts": [
+    {
+      "id": "total-revenue-trend",
+      "title": "Total Revenue (Low vs High)",
+      "type": "line",
+      "metrics": ["totalRevenueLow", "totalRevenueHigh"],
+      "notes": "Tracks total revenue growth under the low and high projection cases from 2025-2028."
+    },
+    {
+      "id": "rental-revenue-trend",
+      "title": "Rental Revenue (Low vs High)",
+      "type": "line",
+      "metrics": ["rentalRevenueLow", "rentalRevenueHigh"],
+      "notes": "Highlights the rental revenue ramp tied to fleet utilization and average monthly rates."
+    },
+    {
+      "id": "unit-volume",
+      "title": "Unit Volume (Low vs High)",
+      "type": "bar",
+      "metrics": ["unitVolumeLow", "unitVolumeHigh"],
+      "notes": "Visualizes fleet unit growth for the low and high scenarios over the projection horizon."
+    }
+  ]
+}

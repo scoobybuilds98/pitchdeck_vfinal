@@ -1,0 +1,19 @@
+{
+  "tables": [
+    {
+      "id": "projection-summary",
+      "title": "Projection Summary",
+      "metrics": [
+        "rentalRevenueLow",
+        "rentalRevenueHigh",
+        "chassisSalesLow",
+        "chassisSalesHigh",
+        "usedSalesLow",
+        "usedSalesHigh",
+        "totalRevenueLow",
+        "totalRevenueHigh"
+      ],
+      "notes": "Aligned to the projection summary in the Mainland Truck revenue tables."
+    }
+  ]
+}

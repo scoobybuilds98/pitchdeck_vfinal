@@ -1,0 +1,83 @@
+{
+  "assumptions": [
+    {
+      "id": "low-scenario-2025-units",
+      "category": "Fleet",
+      "label": "2025 unit count (low scenario)",
+      "value": 92,
+      "unit": "units",
+      "notes": "Mix includes 65 chassis and 27 dry vans in the low-case fleet build."
+    },
+    {
+      "id": "high-scenario-2025-units",
+      "category": "Fleet",
+      "label": "2025 unit count (high scenario)",
+      "value": 120,
+      "unit": "units",
+      "notes": "Mix includes 80 chassis and 40 dry vans in the high-case fleet build."
+    },
+    {
+      "id": "base-utilization",
+      "category": "Utilization",
+      "label": "Baseline utilization",
+      "value": 100,
+      "unit": "%",
+      "notes": "Projection tables model 100% utilization with sensitivity shown at 95% and 90%."
+    },
+    {
+      "id": "avg-monthly-rate-2025",
+      "category": "Pricing",
+      "label": "Average monthly rental rate (2025)",
+      "value": 950,
+      "unit": "USD",
+      "notes": "Applied to both low and high cases for 2025 rental revenue projections."
+    },
+    {
+      "id": "avg-monthly-rate-2028-low",
+      "category": "Pricing",
+      "label": "Average monthly rental rate (2028, low)",
+      "value": 1008,
+      "unit": "USD",
+      "notes": "Low-case average monthly rate by 2028 in the rental revenue model."
+    },
+    {
+      "id": "avg-monthly-rate-2028-high",
+      "category": "Pricing",
+      "label": "Average monthly rental rate (2028, high)",
+      "value": 1038,
+      "unit": "USD",
+      "notes": "High-case average monthly rate by 2028 in the rental revenue model."
+    },
+    {
+      "id": "unit-ramp-2028-low",
+      "category": "Fleet",
+      "label": "2028 unit count (low scenario)",
+      "value": 550,
+      "unit": "units",
+      "notes": "Low-case fleet ramp in the unit growth table."
+    },
+    {
+      "id": "unit-ramp-2028-high",
+      "category": "Fleet",
+      "label": "2028 unit count (high scenario)",
+      "value": 700,
+      "unit": "units",
+      "notes": "High-case fleet ramp in the unit growth table."
+    }
+  ],
+  "risks": [
+    {
+      "id": "supply-chain",
+      "label": "Equipment supply chain disruptions",
+      "mitigation": "Diversify suppliers and maintain inventory buffers."
+    }
+  ],
+  "auditTrail": [
+    {
+      "date": "2026-01-15",
+      "author": "Lead Engineer",
+      "change": "Populated assumptions with fleet, pricing, and utilization inputs from Mainland Truck projection tables.",
+      "rationale": "Align assumptions register with source projections for scenario modeling."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "assumptions": [
+    {
+      "id": "assumption-1",
+      "category": "Volume",
+      "label": "Unit volume growth",
+      "value": 0,
+      "unit": "%",
+      "notes": "Describe the assumption and its source."
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk-1",
+      "label": "Risk description",
+      "mitigation": "Mitigation plan"
+    }
+  ],
+  "auditTrail": [
+    {
+      "date": "YYYY-MM-DD",
+      "author": "Owner",
+      "change": "Describe the change",
+      "rationale": "Why the assumption was updated"
+    }
+  ]
+}

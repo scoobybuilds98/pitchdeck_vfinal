@@ -1,0 +1,37 @@
+{
+  "currency": "USD",
+  "timeframe": {
+    "startYear": 2025,
+    "endYear": 2030,
+    "frequency": "annual"
+  },
+  "metrics": [
+    {
+      "id": "revenue",
+      "label": "Revenue",
+      "format": "currency",
+      "values": []
+    },
+    {
+      "id": "grossMargin",
+      "label": "Gross Margin",
+      "format": "percentage",
+      "values": []
+    }
+  ],
+  "drivers": [
+    {
+      "id": "unitVolume",
+      "label": "Unit Volume",
+      "format": "number",
+      "values": []
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "base",
+      "label": "Base Case",
+      "description": "Primary projection case"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "charts": [
+    {
+      "id": "revenue-trend",
+      "title": "Revenue Trend",
+      "type": "line",
+      "metrics": ["revenue"],
+      "notes": "Connects to projections metric ids."
+    }
+  ]
+}
